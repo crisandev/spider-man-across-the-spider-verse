@@ -18,7 +18,6 @@ class Character extends StatelessWidget {
                       height: 80,
                     ),
                     Text("Personajes", style: TextStyle(
-                      // fontFamily: "Impact",
                       fontSize: 30,
                       color: Colors.white, 
                       fontWeight: FontWeight.w900

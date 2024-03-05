@@ -17,14 +17,6 @@ class _CoverState extends State<Cover> {
     'assets/images/spiderman-pig.png',
   ];
 
-  final color = [
-    Colors.red,
-    Colors.amber,
-    Colors.teal,
-    Colors.blueGrey,
-    Colors.blue,
-  ];
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -35,7 +27,6 @@ class _CoverState extends State<Cover> {
           children: [
             const Image(image: AssetImage("assets/images/title.png")),
             const SizedBox(
-                // height: 20,
                 ),
             SizedBox(
               height: 500,
@@ -49,10 +40,8 @@ class _CoverState extends State<Cover> {
                       PageController(initialPage: 3, viewportFraction: 0.7),
                   itemBuilder: (context, i) {
                     return Container(
-                      // margin: const EdgeInsets.all(8)
                       clipBehavior: Clip.antiAlias,
                       decoration: BoxDecoration(
-                          // color: color[i],
                           borderRadius: BorderRadius.circular(25)),
                       child: Image.asset(
                         assets[i],

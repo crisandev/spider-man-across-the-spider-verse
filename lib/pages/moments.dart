@@ -19,7 +19,6 @@ class Moments extends StatelessWidget {
               Text(
                 "Mejores Momentos",
                 style: TextStyle(
-                    // fontFamily: "Impact",
                     fontSize: 30,
                     color: Colors.white,
                     fontWeight: FontWeight.w900),
